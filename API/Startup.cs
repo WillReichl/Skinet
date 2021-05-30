@@ -40,6 +40,7 @@ namespace API
 
             services.AddSwaggerDocumentation();
             services.AddApplicationServices();
+            services.AddIdentityServices();
             services.AddCors(opt =>
             {
                 opt.AddPolicy("CorsPolicy",
